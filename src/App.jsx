@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom'
 
 const App = () => {
   const {search, pathname } = useLocation()
-  console.log(search , pathname);
+  // console.log(search , pathname);
   
   return (
     <div className='w-full h-screen flex'>
